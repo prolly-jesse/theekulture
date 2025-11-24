@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Project info
 
 # Step 1: Clone the repository using the project's Git URL.
@@ -33,6 +34,12 @@ npm run dev
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
 ## What technologies are used for this project?
+=======
+
+## Project info
+
+
+>>>>>>> c63669bacf7efcf82df945fc11c020ce560ac9b6
 
 This project is built with:
 
@@ -41,4 +48,8 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+<<<<<<< HEAD
 ```
+=======
+
+>>>>>>> c63669bacf7efcf82df945fc11c020ce560ac9b6
