@@ -145,11 +145,20 @@ const Index = () => {
             />
 
             <MenuCategory
-              title="Signature Zero-Proof Cocktails (Mocktails)"
+              title="Mocktails"
               icon={<Martini size={32} />}
               items={menuData.mocktails}
             />
-
+            <MenuCategory
+              title="Cocktails (Classic)"
+              icon={<Martini size={32} />}
+              items={menuData.cocktails}
+            />
+            <MenuCategory
+              title="Cocktails (Signature)"
+              icon={<Martini size={32} />}
+              items={menuData.signature}
+            />
             <MenuCategory
               title="Specialty Teas"
               icon={<Coffee size={32} />}
