@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import { Analytics } from "@vercel/analytics/react";
+import { PromoPopup } from "@/components/PromoPopup";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -14,6 +15,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <PromoPopup />
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
