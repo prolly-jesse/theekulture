@@ -67,13 +67,20 @@ export const menuData = {
   ],
 
   foodItems: [
-    { name: "Pancakes", price: 250, description: "2 pieces" },
+    { name: "Pancake", price: 150 },
     { name: "Sausages", price: 100 },
     { name: "Smokies", price: 80 },
-    { name: "Chips", price: 250 },
+    { name: "Samosa", price: 100, description: "2 pieces" },
+    { name: "Chapati", price: 40 },
+    { name: "Chips", price: 150 / 250 },
+    { name: "Chips Masala", price: 200 / 300 },
+    { name: "Pilau", price: 150 / 250 },
+    { name: "Ugali", price: 50 },
+    { name: "Beef", price: 250 },
+    { name: "Kebab", price: 150 },
     { name: "Chicken Wings", price: 500, description: "6 pieces" },
-    { name: "Spring Rolls", price: 200, description: "2 pieces" },
-    { name: "Hot Dog", price: 150 },
+    { name: "Spring Rolls", price: 160 },
+    { name: "Hot Dog", price: 200 },
     { name: "Burger", price: 400 },
     { name: "Eggs", price: 150 },
   ],
@@ -157,10 +164,10 @@ export const menuData = {
   ],
 
   beers: [
-    { name: "Tusker Lager", price: 300 },
-    { name: "White Cap Lager", price: 300 },
+    { name: "Tusker Lager", price: 350 },
+    { name: "White Cap Lager", price: 350 },
     { name: "Heineken", price: 400 },
-    { name: "Guinness Foreign Extra", price: 300 },
+    { name: "Guinness Foreign Extra", price: 350 },
   ],
 
   ciders: [
@@ -212,6 +219,8 @@ export const menuData = {
     { name: "Still Mineral Water", price: 100 },
     { name: "Sparkling Water", price: 150 },
     { name: "Citrus Infused Water", price: 200 },
+    { name: "Soda", price: 100 },
+    { name: "Minute Maid", price: 100 },
   ],
   cocktails: [
     { name: "Mojito", price: 400 },

@@ -26,11 +26,11 @@ const promoItems: PromoItem[] = [
   },
   {
     id: "2",
-    title: "Afrobeats Night",
+    title: "COFFEE EXPERIENCE",
     description:
-      "Join us every Friday for the hottest Afrobeats with DJ Mziki spinning all night!",
+      "Join us every Morning for a FREE CUP OF COFFEE From 6AM-7AM! And a BUY ONE GET ONE OFFER FROM 7AM-8AM ",
     type: "event",
-    date: "Every Friday",
+    date: "Every Morning",
     link: "/experiences",
   },
   {
