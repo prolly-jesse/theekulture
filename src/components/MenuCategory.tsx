@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 
 interface MenuItem {
   name: string;
-  price: number;
+  price: number | number[];
   description?: string;
 }
 
@@ -22,7 +22,7 @@ const MenuCategory = ({ title, icon, items }: MenuCategoryProps) => {
           {title}
         </h2>
       </div>
-      
+
       <div className="space-y-4">
         {items.map((item, index) => (
           <div

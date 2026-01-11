@@ -17,22 +17,24 @@ interface PromoItem {
 const promoItems: PromoItem[] = [
   {
     id: "1",
-    title: "Weekend Special: Nyama Choma Platter",
-    description:
-      "Get 20% off our signature Nyama Choma platter every Friday & Saturday!",
-    type: "product",
-    discount: "20% OFF",
-    link: "/menu",
-  },
-  {
-    id: "2",
     title: "COFFEE EXPERIENCE",
     description:
       "Join us every Morning for a FREE CUP OF COFFEE From 6AM-7AM! And a BUY ONE GET ONE OFFER FROM 7AM-8AM ",
     type: "event",
     date: "Every Morning",
-    link: "/experiences",
+    link: "menu",
   },
+
+  {
+    id: "2",
+    title: "Weekend Special: Nyama Choma Platter",
+    description:
+      "Get 20% off our signature Nyama Choma platter every Friday & Saturday!",
+    type: "product",
+    discount: "20% OFF",
+    link: "menu",
+  },
+
   {
     id: "3",
     title: "Happy Hour Cocktails",
@@ -40,7 +42,7 @@ const promoItems: PromoItem[] = [
       "Enjoy 2-for-1 cocktails every day from 4PM - 7PM. Dawa, Passion Mojito & more!",
     type: "product",
     discount: "2 FOR 1",
-    link: "/menu",
+    link: "menu",
   },
 ];
 
