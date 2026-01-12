@@ -17,12 +17,12 @@ interface PromoItem {
 const promoItems: PromoItem[] = [
   {
     id: "1",
-    title: "COFFEE EXPERIENCE",
+    title: "THEE COFFEE EXPERIENCE",
     description:
       "Join us every Morning for a FREE CUP OF COFFEE From 6AM-7AM! And a BUY ONE GET ONE OFFER FROM 7AM-8AM ",
     type: "event",
     date: "Every Morning",
-    link: "menu",
+    link: "/",
   },
 
   {
@@ -32,7 +32,7 @@ const promoItems: PromoItem[] = [
       "Get 20% off our signature Nyama Choma platter every Friday & Saturday!",
     type: "product",
     discount: "20% OFF",
-    link: "menu",
+    link: "/",
   },
 
   {
@@ -42,7 +42,7 @@ const promoItems: PromoItem[] = [
       "Enjoy 2-for-1 cocktails every day from 4PM - 7PM. Dawa, Passion Mojito & more!",
     type: "product",
     discount: "2 FOR 1",
-    link: "menu",
+    link: "/",
   },
 ];
 
@@ -63,11 +63,11 @@ export function PromoPopup() {
   }, []);
 
   useEffect(() => {
-    // Rotate promos every 5 seconds
+    // Rotate promos every 10 seconds
     if (isOpen) {
       const interval = setInterval(() => {
         setCurrentPromo((prev) => (prev + 1) % promoItems.length);
-      }, 5000);
+      }, 10000);
       return () => clearInterval(interval);
     }
   }, [isOpen]);
